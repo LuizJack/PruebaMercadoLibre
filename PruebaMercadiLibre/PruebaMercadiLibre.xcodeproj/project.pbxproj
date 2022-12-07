@@ -11,6 +11,8 @@
 		EF4414DF293E783D00201E6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4414DE293E783D00201E6C /* ContentView.swift */; };
 		EF4414E1293E784000201E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4414E0293E784000201E6C /* Assets.xcassets */; };
 		EF4414E4293E784000201E6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4414E3293E784000201E6C /* Preview Assets.xcassets */; };
+		EF4414EC293E79A000201E6C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4414EB293E79A000201E6C /* NetworkService.swift */; };
+		EF4415112940F8A200201E6C /* Busqueda.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4415102940F8A200201E6C /* Busqueda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EF4414DE293E783D00201E6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF4414E0293E784000201E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4414E3293E784000201E6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4414EB293E79A000201E6C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EF4415102940F8A200201E6C /* Busqueda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Busqueda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		EF4414DB293E783D00201E6C /* PruebaMercadiLibre */ = {
 			isa = PBXGroup;
 			children = (
+				EF44150F2940F89700201E6C /* New Group */,
+				EF4414EA293E798300201E6C /* Networking */,
 				EF4414DC293E783D00201E6C /* PruebaMercadiLibreApp.swift */,
 				EF4414DE293E783D00201E6C /* ContentView.swift */,
 				EF4414E0293E784000201E6C /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				EF4414E3293E784000201E6C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4414EA293E798300201E6C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EF4414EB293E79A000201E6C /* NetworkService.swift */,
+				EF4415102940F8A200201E6C /* Busqueda.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EF44150F2940F89700201E6C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4414DF293E783D00201E6C /* ContentView.swift in Sources */,
+				EF4414EC293E79A000201E6C /* NetworkService.swift in Sources */,
 				EF4414DD293E783D00201E6C /* PruebaMercadiLibreApp.swift in Sources */,
+				EF4415112940F8A200201E6C /* Busqueda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

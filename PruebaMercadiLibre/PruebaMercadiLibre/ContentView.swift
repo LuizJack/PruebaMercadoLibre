@@ -1,19 +1,23 @@
 //
 //  ContentView.swift
-//  PruebaMercadiLibre
+//  MLP
 //
-//  Created by Luiz Camargo on 5/12/22.
+//  Created by Luiz Camargo on 6/12/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    private var networkProvider: NetworkProvider = NetworkProvider()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text ("Consulta Get Mercado Libre")
+                .padding()
+            Button("Crear Petición HTTP") {
+                networkProvider.consultaApiMl()
+            }
         }
         .padding()
     }
